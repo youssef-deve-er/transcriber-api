@@ -63,7 +63,7 @@ def save_to_word(text, filepath):
             paragraph.paragraph_format.right_to_left = True
     doc.save(filepath)
 
-@app.route('/process', pd_methods=['POST'])
+@app.route('/process', methods=['POST'])
 def process_video():
     data = request.json
     url = data.get('url')
