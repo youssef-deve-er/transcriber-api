@@ -1,0 +1,5 @@
+Flask
+Flask-CORS
+openai-whisper
+python-docx
+yt-dlp
